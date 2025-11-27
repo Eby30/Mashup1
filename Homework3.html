@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <p>If you have any enquiry, please reach out to us by filling the form given below:</p>
+
+    <form>
+        <label for="name">Full Name :</label><br>
+        <input type="text" id="name" name="name" placeholder="Please enter your name" required><br>
+
+        <label for="email">Email Address :</label><br>
+        <input type="email" id="email" name="email" placeholder="Please enter your email address" required><br>
+        
+        <label for="phone">Phone Number :</label><br>
+        <input type="tel" id="phone" name="phone" maxlength="10"  placeholder="10- digit phone number" pattern="[0-9]{10}" required><br>
+
+        <label for="subject">Subject :</label><br>
+        <input type="text" id="subject" name="subject" placeholder="Subject" required><br>
+
+        <label for="message">Write your suggestions below :</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..." required></textarea><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <footer>
+        <p>&copy; 2025 Local Business. All rights reserved</p>
+    </footer>
+</body>
+</html>
